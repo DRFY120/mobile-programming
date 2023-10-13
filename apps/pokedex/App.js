@@ -1,12 +1,10 @@
-// Dependencias
+import React from 'react';
 import { View } from 'react-native';
-import Constants from 'expo-constants';
 import { NativeRouter, Routes, Route } from 'react-router-native';
-
-// Components
+import Navbar from './src/components/Navbar';
 import Home from './src/pages/Home';
 import Information from './src/pages/Information';
-import Navbar from './src/components/Navbar';
+
 
 export default function App() {
     return (
@@ -15,8 +13,9 @@ export default function App() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/information/:pokemonid' element={<Information />} />
-            </Routes>
-        </NativeRouter>
 
+            </Routes>
+            
+        </NativeRouter>
     );
 }
