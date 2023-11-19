@@ -1,0 +1,24 @@
+/* Tab2.css */
+
+/* Estilo para el fondo del cuerpo de la página */
+ion-content {
+    --background: url('../imagenes/gif.gif') no-repeat center center fixed;
+  --background-size: cover;
+  }
+  
+  /* Estilo para el encabezado */
+  ion-header {
+    --background: #3880ff; /* Color del encabezado */
+    --ion-color-base: #fff; /* Color del texto en el encabezado */
+  }
+  
+  /* Estilo para el botón flotante */
+  ion-fab-button {
+    --background: #3880ff; /* Color del botón flotante */
+  }
+  
+  /* Estilo para el ícono del botón flotante */
+  ion-icon {
+    --ion-color-base: #fff; /* Color del ícono del botón flotante */
+  }
+  

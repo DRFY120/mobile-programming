@@ -1,0 +1,38 @@
+/* Tab1.css */
+
+/* Estilos para el cuerpo de la página */
+ion-content {
+    --ion-background-color: #f2f2f2; /* Color de fondo del contenido */
+  }
+  
+  /* Estilos para el contenedor de la biografía */
+  .biography-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+    padding: 20px;
+  }
+  
+  /* Estilos para la imagen de la biografía */
+  .biography-image {
+    width: 350px; /* Ancho de la imagen */
+    height: 350px; /* Altura de la imagen */
+    border-radius: 50%; /* Borde redondeado para la imagen circular */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  /* Estilos para el título de la biografía */
+  h1 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #e7e0e0; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  /* Estilos para los párrafos de la biografía */
+  p {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #948e8e; /* Color del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+  }
+  
